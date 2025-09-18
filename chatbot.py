@@ -31,7 +31,7 @@ def chat_with_ollama(prompt, model="llama3"):
         return f"⚠️ Connection Error: {e}"
 
 
-print("🤖 Offline Chat-Bot bu NEUROLINK (type 'exit' to quit)\n")
+print("🤖 Offline Chat-Bot by NEUROLINK (type 'exit' to quit)\n")
 while True:
     user_input = input("You: ")
     if user_input.lower() in ["exit", "quit"]:
